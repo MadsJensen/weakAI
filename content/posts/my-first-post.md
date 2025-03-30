@@ -9,8 +9,4 @@ This is my first blog post using Hugo and GitHub Pages!
 
 ## Introduction
 
-Write your content here. You can use **Markdown** formatting.
-
-- List item 1
-- List item 2
-- List item 3
+Text goes here.

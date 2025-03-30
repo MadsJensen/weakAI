@@ -15,12 +15,7 @@
       <guid>//localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is my first blog post using Hugo and GitHub Pages!&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Write your content here. You can use &lt;strong&gt;Markdown&lt;/strong&gt; formatting.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;List item 1&lt;/li&gt;
-&lt;li&gt;List item 2&lt;/li&gt;
-&lt;li&gt;List item 3&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;Text goes here.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
