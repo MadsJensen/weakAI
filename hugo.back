@@ -1,0 +1,43 @@
+# Basic Configuration
+languageCode = "en-us"
+title = "weakAweakAII"
+theme = "PaperMod"
+
+# Markup Configuration
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
+
+# Navigation Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+# Theme Parameters
+[params]
+  author = "Mads Jensen, PhD"
+  defaultTheme = "auto"
+  description = "A blog about AI, ML, predictions, and other things I think about"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
