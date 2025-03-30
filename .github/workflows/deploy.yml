@@ -25,7 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
+          fetch-depth: 0
+          
+      - name: Clean theme directory
+        run: |
+          rm -rf themes/ananke
+          git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
           
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
