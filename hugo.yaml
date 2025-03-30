@@ -1,14 +1,14 @@
-baseURL: 'https://madsjensen.github.io/weakAI/'
-languageCode: 'en-us'
-title: 'My Blog'
-theme: 'ananke'
+baseURL: "https://weakai.github.io/"
+languageCode: "en-us"
+title: "weakAI"
+theme: "ananke"
 
 params:
   description: "My personal blog"
   author: "Mads Jensen"
-  featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+  featured_image: "/images/gohugo-default-sample-hero-image.jpg"
   background_color_class: "bg-black"
-  
+
   # Social links
   socialIcons:
     - name: "github"
