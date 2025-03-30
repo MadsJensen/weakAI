@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "weakAweakAII"
 theme = "PaperMod"
 
+# Hugo Version Requirement
+[module]
+  min_version = "0.125.7"
+
 # Markup Configuration
 [markup]
   [markup.highlight]
