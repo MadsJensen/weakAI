@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           
@@ -37,6 +37,12 @@ jobs:
         run: hugo --minify
 
       - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: hugo-site
+          path: ./public
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public

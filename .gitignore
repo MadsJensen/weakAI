@@ -179,3 +179,11 @@ cython_debug/
 /assets/jsconfig.json
 hugo_stats.json
 .hugo_build.lock
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
