@@ -1,0 +1,13 @@
+baseURL: 'https://madsjensen.github.io/weakAI/'
+languageCode: 'en-us'
+title: 'My Blog'
+theme: 'PaperMod'  # or any other theme you prefer
+
+params:
+  description: "My personal blog"
+  author: "Mads Jensen"
+  
+  # Social links
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/MadsJensen"

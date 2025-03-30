@@ -23,6 +23,9 @@ jobs:
           hugo-version: '0.125.7'
           extended: true
 
+      - name: Install theme
+        run: git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+
       - name: Build
         run: hugo --minify
 
