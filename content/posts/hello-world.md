@@ -9,8 +9,4 @@ This is my first blog post using Hugo and GitHub Pages!
 
 ## Introduction
 
-Text goes here. I'm excited to start blogging with Hugo.
-
-- Point one
-- Point two
-- Point three
+I will use this space for thoughts and ideas in the realm of AI, ML, data science, predictions, and what else I think about.
